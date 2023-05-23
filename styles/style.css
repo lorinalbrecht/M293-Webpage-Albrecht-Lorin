@@ -23,6 +23,8 @@ body {
   width: 300px;
   font-size: 2em;
   padding: 0.5em;
+  padding-left: 0px;
+  margin-left: 50px;
 }
 .nav-page {
   background-color: rgb(255, 255, 255, 0.75);
@@ -31,10 +33,39 @@ body {
 .nav-page-last {
   width: calc(100% - 750px);
 }
+@media (max-width: 1000px) {
+  body {
+    background-image: url("../pictures/background.jpg");
+    background-repeat: repeat;
+    background-size: 2000px;
+    background-position-x: center;
+  }
+  .navbar {
+    flex-wrap: wrap;
+  }
+  .nav-home {
+    width: 100%;
+  }
+  .nav-page {
+    box-sizing: border-box;
+    width: 25%;
+  }
+}
+@media (max-width: 700px) {
+  .nav-item {
+    width: 100%;
+  }
+}
 
 /* Text Definition Allgemein */
 .text {
   font-size: 16px;
   background-color: rgb(255, 255, 255, 0.75);
   padding: 5px;
+}
+
+/* Content Definition Allgemein */
+.content {
+  margin: 50px;
+  margin-top: 100px;
 }

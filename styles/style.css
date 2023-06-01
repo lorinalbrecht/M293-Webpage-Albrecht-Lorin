@@ -67,10 +67,24 @@ body {
 }
 
 /* Text Definition Allgemein */
+p,
+h1,
+h2,
+h3 {
+  margin: 0px;
+  padding: 0px;
+}
 .text {
   font-size: 1.15em;
   background-color: rgb(255, 255, 255, 0.75);
-  padding: 5px;
+  padding: 5px !important;
+  margin-bottom: 2em;
+}
+h1 {
+  font-size: 1.5em !important;
+  font-weight: normal;
+  padding-top: 0.3em;
+  padding-bottom: 0.5em;
 }
 
 /* Content Definition Allgemein */

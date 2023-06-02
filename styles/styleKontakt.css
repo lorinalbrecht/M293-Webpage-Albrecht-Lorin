@@ -1,6 +1,5 @@
 .content {
   display: flex;
-  background-color: rgb(255, 255, 255, 0.75);
 }
 .content-item {
   width: 50%;
@@ -27,12 +26,29 @@ p {
   margin-top: 1.4em;
   border: 0;
 }
-
 @media (max-width: 1000px) {
   .content {
     flex-wrap: wrap;
   }
   .content-item {
     width: 100%;
+  }
+}
+
+/* Kontakt Optionen */
+ul {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
+.map-alt {
+  display: none;
+}
+@media (max-width: 450px) {
+  .map {
+    display: none;
+  }
+  .map-alt {
+    display: unset !important;
   }
 }

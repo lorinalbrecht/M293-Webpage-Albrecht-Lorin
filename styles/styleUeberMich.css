@@ -1,3 +1,14 @@
 td {
   width: 150px;
 }
+.portrait {
+  float: left;
+  padding-right: 1em;
+  width: 10em;
+}
+@media (max-width: 550px) {
+  .portrait {
+    float: none;
+    width: 100% !important;
+  }
+}

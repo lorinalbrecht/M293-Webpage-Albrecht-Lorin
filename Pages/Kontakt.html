@@ -10,7 +10,7 @@
   </head>
   <body>
     <!-- Navigation -->
-    <section class="navbar">
+    <nav class="navbar">
       <div class="nav-item nav-home">
         <a href="../index.html">Personal Website</a>
       </div>
@@ -23,27 +23,79 @@
       <div class="nav-item nav-page">
         <a href="./Portfolio.html">Portfolio</a>
       </div>
-      <div class="nav-item nav-page nav-page-last">
+      <div class="nav-item nav-page nav-page-last active">
         <a href="./Kontakt.html">Kontakt</a>
       </div>
-    </section>
+    </nav>
     <!-- Content -->
     <section class="content">
-      <div class="content-item kontakte">
-        <div class="kontakt-option">
-          <a href="mailto:lorin.albrecht@edu.gbssg.ch">E-Mail</a>
-        </div>
-        <div class="kontakt-option">
-          Anfrage für
-          <a
-            href="mailto:lorin.albrecht@edu.gbssg.ch?subject=Anfrage%20für%20Postadresse&amp;body=Bitte%20senden%20Sie%20mir%20Ihre%20Postadresse."
-            >Postadresse
-          </a>
-        </div>
-        <div class="kontakt-option">text</div>
-        <div class="kontakt-option">text</div>
-      </div>
-      <div class="content-item kontakt-formular">
+      <article class="content-item">
+        <ul>
+          <li>
+            <h2>Kontakt</h2>
+            <p>Lorin Albrecht</p>
+          </li>
+          <li>
+            <h2>Email</h2>
+            <p><ul>
+              <li>
+                Geschäftlich:
+                <a href="mailto:lorin.albrecht@buhlergroup.com"
+                  >lorin.albrecht@buhlergroup.com</a
+                >
+              </li>
+              <li>
+                Schule:
+                <a href="mailto:lorin.albrecht@edu.gbssg.ch"
+                  >lorin.albrecht@edu.gbssg.ch</a
+                >
+              </li>
+
+              <li>
+                Privat: <a href="mailto:lorin@cmweb.ch">lorin@cmweb.ch</a>
+              </li>
+            </ul></p>
+          </li>
+          <li>
+            <h2>Telefon</h2>
+            <p>+41 77 463 43 89</p>
+          </li>
+          <li class="map">
+            <h2>Adresse</h2>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2698.586690923229!2d8.9518786!3d47.439502!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479aeaccb3f62b65%3A0x1847933f03d0bcab!2sBernhardsriet%203%2C%208374%20Dussnang!5e0!3m2!1sde!2sch!4v1685690534215!5m2!1sde!2sch"
+              width="400"
+              height="300"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </li>
+          <li class="map-alt">
+            <h2>Adresse</h2>
+            <p>Bernhardsriet 3<br />8374 Dussnang</p>
+          </li>
+          <li class="map">
+            <h2>Ausbildungsort</h2>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2870.8041792813606!2d9.138002776392762!3d47.43873159955455!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479ae8878992d039%3A0x7cbb1273fd83850c!2sB%C3%BChler%20AG!5e1!3m2!1sde!2sch!4v1685713236790!5m2!1sde!2sch"
+              width="400"
+              height="300"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </li>
+          <li class="map-alt">
+            <h2>Ausbildungsort</h2>
+
+            <p>Gupfenstrasse 5<br />9240 Uzwil</p>
+          </li>
+        </ul>
+      </article>
+      <article class="content-item kontakt-formular">
         <div class="kontakt-formular-feld">
           <p>Vorname</p>
           <input class="feld" type="text" />
@@ -61,7 +113,8 @@
           <textarea class="feld feld-large" type="text"></textarea>
         </div>
         <input class="feld-submit" type="submit" value="Absenden" />
-      </div>
+      </article>
+      
     </section>
   </body>
 </html>
